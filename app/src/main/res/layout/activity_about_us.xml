@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="@android:color/white"
+    >
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/aboutimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/aboutusmain"
+        />
+
+    <TextView
+        android:layout_below="@id/aboutimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/kodehauz_real_estate_is_the_leading_real_estate_and_rental_marketplace_dedicated_to_empowering_consumers_with_data_inspiration_and_knowledge_around_the_place_they_call_home_and_connecting_them_with_the_best_local_professionals_who_can_help_kodehauz_real_estate_serves_the_full_lifecycle_of_owning_and_living_in_a_home_buying_selling_renting_financing_remodeling_and_more_it_starts_with_kodehauz_real_estate_living_database_of_more_than_110_million_nigerian_homes_including_homes_for_sale_homes_for_rent_and_homes_not_currently_on_the_market_as_well_as_estimate_home_values_rent_estimates_and_other_home_related_information_kodehauz_real_estate_operates_the_most_popular_suite_of_mobile_real_estate_apps_with_more_than_two_dozen_apps_across_all_major_platforms_kodehauz_real_estate_launched_in_2006_and_is_headquartered_in_eket_akwa_ibom_state_nigeria"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        />
+ </RelativeLayout>
+</ScrollView>
